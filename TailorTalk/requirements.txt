@@ -1,0 +1,30 @@
+# FastAPI & server
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# Google Calendar API
+google-api-python-client==2.125.0
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# LLM & LangChain
+langchain==0.1.16
+langchain-community==0.0.30
+transformers==4.41.1
+torch==2.3.0
+sentencepiece  # Needed for some models like T5, BART, etc.
+
+# Rule-based NLP parsing
+regex
+dateparser==1.2.0
+
+# Streamlit frontend
+streamlit==1.35.0
+requests
+
+# Pydantic for schemas
+pydantic==2.7.1
+
+# Optional (dev)
+python-dotenv
