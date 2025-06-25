@@ -1,5 +1,5 @@
 # FastAPI & server
-fastapi==0.110.0
+fastapi
 uvicorn==0.29.0
 
 # Google Calendar API
